@@ -34,13 +34,11 @@
  5. What is this system  
 We made relief materials search system in Okazaki city, Aichi Prefecture, Japan.
 It enables us to search relief materials by natural language.
-Details will be explained bellow.
-
+Details will be explained bellow.  
 (1) Importance  
 In the first place, we don't know what kind of materials there are in the shelters of Okazaki City.
 Though is it, you appoint a right search word, and may you search it?
-Only we know is what we are annoyed. So, it is very important to search by these problems in natural language.
-
+Only we know is what we are annoyed. So, it is very important to search by these problems in natural language.  
 (2) What we made  
 Okazaki city published the open data of relief materials in the shelters.
 First, we made web database (using Kintone) which had these open data.
@@ -50,8 +48,7 @@ For example, "I am in trouble with my baby".
 Then, this system can return for infant related materials at each shelter by this search term.
 For example, the number of powdered milks, water, baby bottle, disposable diapers, etc.
 Watson Assistant is very useful because it converts various synonym expressions into keywords.
-With these keywords, this system selects query, searches the web database, and returns the results.
-
+With these keywords, this system selects query, searches the web database, and returns the results.  
 (3) What kind of problem is solved  
 This system is practical because we use the open data of Okazaki City.
 You know, the purpose of this system is to solve evacuees' problems 
