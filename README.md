@@ -9,19 +9,15 @@
  (1) Install Node.js  
      https://nodejs.org/en/download/  
  (2) Initialize npm  
-     npm init  
-  
+     npm init
  (3) Install ejs  
-     npm install -g ejs  
-  
+     npm install -g ejs    
  (4) Install express  
      npm install -g express  
      npm install -g express-generator  
-  
  (5) Install IBM Watson  
      npm install -g ibm-watson  
-     npm link ibm-watson  
-  
+     npm link ibm-watson   
  (6) Setup Web Server  
      express myapp  
      cd myapp  
