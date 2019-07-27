@@ -5,7 +5,7 @@
  OS: Windows10
  Database: web database Kintone
  
-2. How to Install and Setup
+2. How to Install and Setup <br>
 (1) Install Node.js
 > https://nodejs.org/en/download/
 
