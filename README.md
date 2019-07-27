@@ -1,38 +1,38 @@
 # Call for Code 2019
 # Relief materials search in Okazaki
 
-
-Node.js のインストール
+1. Environment
+ OS: Windows10
+ Database: web database Kintone
+ 
+2. How to Install and Setup
+(1) Install Node.js
 > https://nodejs.org/en/download/
 
-
-npmの初期化
+(2) Initialize npm
 > npm init
 
-
-ejsのインストール
+(3) Install ejs
 > npm install -g ejs
 
-
-expressのインストール
+(4) Install express
 > npm install -g express
-
-
-express-generatorのインストール
 > npm install -g express-generator
 
-
-watsonのインストール
+(5) Install IBM Watson
 > npm install -g ibm-watson
 > npm link ibm-watson
 
-
-ローカルでWebサーバを起動
+(6) Setup Web Server
 > express myapp
 > cd myapp
 > npm install
+> copy files from this site
+
+3. How to Execute this system (Web Server) in local environment.
+> cd myapp
 > npm start
 
-検索サイトを開く
+4. How to Access
 > http://localhost:3000/form/
 
