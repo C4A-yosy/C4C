@@ -1,4 +1,5 @@
-# C4C
+# Call for Code 2019
+# Relief materials search in Okazaki
 
 
 Node.js のインストール
