@@ -2,37 +2,39 @@
 # Relief materials search in Okazaki
 
 1. Environment
+
  OS: Windows10
  Database: web database Kintone
  
-2. How to Install and Setup <br>
-(1) Install Node.js
-> https://nodejs.org/en/download/
+2. How to Install and Setup
 
-(2) Initialize npm
-> npm init
+ (1) Install Node.js
+ > https://nodejs.org/en/download/
 
-(3) Install ejs
-> npm install -g ejs
+ (2) Initialize npm
+ > npm init
 
-(4) Install express
-> npm install -g express
-> npm install -g express-generator
+ (3) Install ejs
+ > npm install -g ejs
 
-(5) Install IBM Watson
-> npm install -g ibm-watson
-> npm link ibm-watson
+ (4) Install express
+ > npm install -g express
+ > npm install -g express-generator
 
-(6) Setup Web Server
-> express myapp
-> cd myapp
-> npm install
-> copy files from this site
+ (5) Install IBM Watson
+ > npm install -g ibm-watson
+ > npm link ibm-watson
 
-3. How to Execute this system (Web Server) in local environment.
-> cd myapp
-> npm start
+ (6) Setup Web Server
+ > express myapp
+ > cd myapp
+ > npm install
+ > copy files from this site
 
-4. How to Access
-> http://localhost:3000/form/
+ 3. How to Execute this system (Web Server) in local environment.
+ > cd myapp
+ > npm start
+
+ 4. How to Access
+ > http://localhost:3000/form/
 
