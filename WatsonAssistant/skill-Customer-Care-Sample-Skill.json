@@ -1,0 +1,136 @@
+{
+  "name": "Customer Care Sample Skill",
+  "intents": [
+    {
+      "intent": "child",
+      "examples": [
+        {
+          "text": "子供がいます"
+        },
+        {
+          "text": "オムツを探しています"
+        },
+        {
+          "text": "ミルクはありませんか"
+        },
+        {
+          "text": "子供がケガをしています"
+        },
+        {
+          "text": "息子が病気です"
+        },
+        {
+          "text": "子供用の食べ物はありませんか"
+        },
+        {
+          "text": "小さい子がいます"
+        },
+        {
+          "text": "保育園児がいます"
+        },
+        {
+          "text": "乳児がいます"
+        },
+        {
+          "text": "乳幼児がいます"
+        },
+        {
+          "text": "赤ちゃんがいます"
+        },
+        {
+          "text": "ミルクがほしいです"
+        },
+        {
+          "text": "粉ミルクはありませんか"
+        }
+      ],
+      "description": "子供がいる"
+    }
+  ],
+  "entities": [
+    {
+      "entity": "sys-number",
+      "values": []
+    },
+    {
+      "entity": "sys-person",
+      "values": []
+    },
+    {
+      "entity": "sys-time",
+      "values": []
+    },
+    {
+      "entity": "sys-location",
+      "values": []
+    },
+    {
+      "entity": "sys-date",
+      "values": []
+    }
+  ],
+  "language": "en",
+  "metadata": {
+    "api_version": {
+      "major_version": "v1",
+      "minor_version": "2018-09-20"
+    }
+  },
+  "description": "A sample simple Customer Service skill",
+  "dialog_nodes": [
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "SelectChild"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "#child",
+      "dialog_node": "node_1_1563649035339",
+      "previous_sibling": "Opening"
+    },
+    {
+      "type": "standard",
+      "output": {
+        "text": {
+          "values": [
+            "Unknown"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "metadata": {},
+      "conditions": "anything_else",
+      "digress_in": "returns",
+      "dialog_node": "node_2_1467831978407",
+      "digress_out": "allow_all",
+      "previous_sibling": "node_1_1563649035339"
+    },
+    {
+      "type": "standard",
+      "title": "Opening",
+      "output": {
+        "text": {
+          "values": [
+            "こんにちは。何にお困りですか？"
+          ],
+          "selection_policy": "sequential"
+        }
+      },
+      "context": {
+        "no_reservation": true
+      },
+      "metadata": {},
+      "conditions": "welcome",
+      "dialog_node": "Opening"
+    }
+  ],
+  "workspace_id": "a895e4b8-b9e5-4412-8b5d-9790179fcf6e",
+  "counterexamples": [],
+  "learning_opt_out": false,
+  "status": "Available"
+}
