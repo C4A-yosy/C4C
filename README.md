@@ -1,6 +1,16 @@
 # Call for Code 2019
 # Relief materials search in Okazaki
   
+0. Related URL  
+ (1) Open data Viewer  
+     https://k-hiruta1987.github.io/okazakidisasterkitmap/  
+ (2) Kintone Database  
+     https://github.com/K-Hiruta1987/okazakidisasterkitmap  
+ (3) Watson Assistant  
+     https://github.com/YoshiokaMitsuyoshi/C4C/tree/master/WatsonAssistant  
+ (4) Web service control  
+     https://github.com/YoshiokaMitsuyoshi/C4C  
+  
 1. Environment  
  (1) OS: Windows10  
  (2) Database: web database Kintone  
